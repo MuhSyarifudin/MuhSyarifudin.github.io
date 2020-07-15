@@ -1,0 +1,162 @@
+* {
+   box-sizing: border-box;
+}
+body {
+    font-family: "Quicksand",sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main {
+    padding: 30px;
+    overflow: auto;
+}
+figcaption {
+    margin-top: 20px;
+}
+p{
+    font-family: "Dicoding Font",verdana,sans-serif;
+}
+
+span {
+    font-family: "open-sans",verdana,sans-serif;
+}
+figure {
+    margin: 0px auto;
+}
+h1 {
+    color: white;
+    margin-top: 2em;
+}
+nav li {
+   display: inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
+nav {
+   background-color: #00a2c6;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+}
+h2,h3,h4 {
+    color: #00a2c6;
+}
+.rounded {
+   border-radius: 10px;
+   max-width: 100%;
+}
+.card {
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+}
+article p {
+   text-indent: 20px;
+}
+.jumbotron {
+   font-size: 20px;
+   padding: 60px;
+   background-color: #00c8eb;
+   text-align: center;
+   color: white;
+}
+footer {
+   padding: 20px;
+   color: white;
+   background-color: #00a2c6
+}
+
+footer p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.jumbotron p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bold;
+}
+
+nav li { 
+    display: inline;
+    margin-left:5px;
+}
+
+.featured-image {
+   width: 100%;
+   max-height: 300px;
+   object-fit: cover;
+   object-position: center;
+}
+.sejarah {
+    box-sizing: border-box;
+    overflow: scroll;
+    max-height: 400px;
+}
+.rounded {
+    border-radius: 100px;
+    border: 2px solid #00a2c6;
+}
+aside {
+   float: right;
+   width: 25%;
+   padding-left: 20px;
+}
+#content {
+    width: 75%;
+    float: left;
+}
+header h3 {
+    text-align: center;
+}
+header {
+    display: inline;
+}
+.contact {
+    padding: 0;
+}
+.contact li {
+    display: inline;
+}
+.contact li a {
+    text-decoration: none;
+    color: blue;
+}
+.contact li a:hover{
+    font-weight: bold;
+}
+.list-wisata a {
+    color: black;
+    text-decoration: none;
+}
+.list-wisata li:hover {
+    font-weight: bold;
+}
+@media screen and (max-width: 1000px) {
+   #content,
+   aside {
+       width: 100%;
+       padding: 0;
+       float: none;
+   }
+    article,header,a,footer {
+        font-size: 3vw;
+    }
+    
+}
